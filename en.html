@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form class="clhc-multi-step-form" id="clhc_form" action="https://womensrightsgroup.com/wp-content/themes/astra-child/process/process-clhc.php" method="post">
+
+	<!-- Single Step -->
+	<div id="step_0" class="single-step">
+		<label for="" class="main-label">Were you or a loved one injured in<br>an accident that was<br>not your fault?</label>
+		<div class="clhc-form-row">
+			<div class="clhc-form-group">
+				<input type="radio" id="victimYes" name="victim" value="Yes" class="custom-control-input">
+				<label class="custom-control-label custom-label custom-label-green" for="victimYes">Yes</label>
+			</div>
+			<div class="clhc-form-group">
+				<input type="radio" id="victimNo" name="victim" value="No" class="custom-control-input">
+                <label class="custom-control-label custom-label custom-label-gray" for="victimNo">No</label>
+			</div>
+		</div>
+	</div>
+
+	<!-- Single Step -->
+	<div id="step_1" class="single-step sr-only">
+		<label for="" class="main-label">Was there any property damage<br>due to the said accident?</label>
+		<div class="clhc-form-row">
+			<div class="clhc-form-group">
+				<input type="radio" id="property_damageYes" name="property_damage" value="Yes" class="custom-control-input">
+				<label class="custom-control-label custom-label custom-label-green" for="property_damageYes">Yes</label>
+			</div>
+			<div class="clhc-form-group">
+				<input type="radio" id="property_damageNo" name="property_damage" value="No" class="custom-control-input">
+                <label class="custom-control-label custom-label custom-label-gray" for="property_damageNo">No</label>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Single Step -->
+	<div id="step_2" class="single-step sr-only">
+		<label for="" class="main-label">Did you go to the ER to seek medical<br>treatment for your injuries and take<br>photos/videos of the accident?</label>
+		<div class="clhc-form-row">
+			<div class="clhc-form-group">
+				<input type="radio" id="medical_treatmentYes" name="medical_treatment" value="Yes" class="custom-control-input">
+				<label class="custom-control-label custom-label custom-label-green" for="medical_treatmentYes">Yes</label>
+			</div>
+			<div class="clhc-form-group">
+				<input type="radio" id="medical_treatmentNo" name="medical_treatment" value="No" class="custom-control-input">
+				<label class="custom-control-label custom-label custom-label-gray" for="medical_treatmentNo">No</label>
+			</div>
+		</div>
+	</div>
+
+	<!-- Single Step -->
+	<div id="step_3" class="single-step sr-only">
+		<label for="" class="main-label">It is important that you get your<br>injuries documented right away.<br>We can help you.</label>
+		<div class="clhc-form-row">
+			<div class="clhc-form-group">
+				<input type="radio" id="injuries_documented" name="injuries_documented" value="I need help" class="custom-control-input">
+				<label class="custom-control-label custom-label custom-label-green" for="injuries_documented">I NEED HELP</label>
+			</div>
+		</div>
+	</div>
+
+	<!-- Single Step -->
+	<div id="step_4" class="single-step sr-only">
+		<label for="" class="main-label" id="dynamicLabel_1">Let us help you get treated and compensated for your suffering.</label>
+		<label for="" class="main-label sr-only" id="dynamicLabel_2">Thank you for getting in touch.<br>Please let us know more about<br>the accident you were in.</label>
+		<div class="clhc-form-row text-rows">
+			<div class="clhc-form-group">
+				<input type="text" class="form-control" name="name" id="clhc_name" placeholder="Your Name" required>
+			</div>
+			<div class="clhc-form-group">
+				<input type="text" class="form-control" name="phone" id="clhc_phone" placeholder="Phone Number" required>
+			</div>
+			<div class="clhc-form-group">
+				<input type="text" class="form-control" name="email" id="clhc_email" placeholder="Email" required>
+			</div>
+		</div>
+		<div class="clhc-form-row text-rows">
+			<div class="clhc-form-group">
+				<input type="text" class="form-control" name="name" id="clhc_name" placeholder="Your Name" required>
+                <textarea name="more_details" id="more_details" cols="30" rows="10" placeholder="More details about your injury."></textarea>
+			</div>
+		</div>
+		<div class="clhc-form-row text-rows">
+			<div class="clhc-form-group">
+                <button type="submit" id="clhc_submit">I WANT TO GET A FREE CONSULTATION</button>
+			</div>
+		</div>
+        <div id="responseMsg"></div>
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./multi-step-form.js"></script>
+</form>    
+</body>
+</html>

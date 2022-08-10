@@ -1,0 +1,148 @@
+/* Reset CSS Start */
+
+body {
+    background-color: #042D6F;
+}
+
+/* Reset CSS Start */
+
+
+/* Multi Step Form Start */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+.clhc-form-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.clhc-form-group {
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.last-row .clhc-form-group {
+	margin-bottom: 0!important;
+}
+.clhc-form-row input[type="radio"] {
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+}
+.custom-label {
+	padding: 7px 35px;
+	border-radius: 30px;
+	font-family: "Ubuntu", Sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.custom-label-green {
+	background-color: #0FFFBF;
+	color: #0A2D71;
+	float: right;
+	padding: 0 35px;
+}
+
+#btn_phone {
+	font-family: "Ubuntu", Sans-serif;
+	font-weight: 600;
+	background-color: #0FFFBF;
+	color: #0A2D71;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+.custom-label-gray {
+	background-color: #454D5C;
+	color: #FFFFFF;
+	float: left;
+	padding: 0 35px;
+	text-decoration: none!important;
+}
+.custom-label-gray:hover {
+	text-decoration: none!important;
+	background-color: #454D5C;
+	color: #FFFFFF;
+	outline: none;
+}
+.main-label {
+	font-family: "Ubuntu", Sans-serif;
+	font-weight: 600;
+  color: #fff;
+  font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+.clhc-multi-step-form .form-control {
+	display: block;
+	width: 380px;
+	margin: auto;
+	font-family: "Arial", Sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	border: none;
+}
+.clhc-multi-step-form .form-control:focus {
+	outline: none;
+	border: nonr;
+}
+.clhc-multi-step-form small {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+}
+.clhc-multi-step-form button[type="submit"] {
+	background-color: #0FFFBF;
+	color: #0A2D71;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 12px 40px;
+}
+
+.clhc-multi-step-form button[type="submit"] img {
+	display: inline;
+	width: 25px;
+	margin-left: 8px;
+}
+#contactForm button:disabled {
+    opacity: 0.5;
+}
+#responseMsg {
+    width: 100%;
+		font-family: "Arial", Sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.error, .processing {
+    margin-top: 20px;
+    padding: 12px;
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    line-height: 25px;
+}
+.success {
+    margin-top: 20px;
+    padding: 12px;
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+}
+/* Multi Step Form End */
